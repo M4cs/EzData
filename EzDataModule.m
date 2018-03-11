@@ -28,14 +28,14 @@
 }
 
 - (void)setSelected:(BOOL)selected {
-	if (CTCellularData CTCellularRestrictedState]) {
-		[CTCellularData CTCellularRestrictedState]):FALSE];
+	if ([CTCellularData CTCellularRestrictedState]) {
+		[CTCellularData CTCellularRestrictedState];FALSE;
 		selected = FALSE;
 	} else {
-		[CTCellularData CTCellularRestrictedState]):TRUE];
+		[CTCellularData CTCellularRestrictedState];TRUE;
 		selected = TRUE;
 	}
-	self.ezlocation = selected;
+	self.ezdata = selected;
 	[super refreshState];
 }
 @end
