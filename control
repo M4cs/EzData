@@ -1,0 +1,8 @@
+Package: com.ezccmodules.control-center.ezdatamodule
+Name: EzData
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A toggle to turn Data Services on or off from your control center.
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: m4cs.yourepo.com
